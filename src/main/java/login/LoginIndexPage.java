@@ -1,6 +1,5 @@
-package admin;
+package login;
 
-import admin.application.AdminAreaPage;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
@@ -30,4 +29,3 @@ public class LoginIndexPage {
         return new AdminAreaPage(driver);
     }
 }
-

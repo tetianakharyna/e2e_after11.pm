@@ -18,7 +18,7 @@ public class ApplicationCreatePage extends BaseAdminPage {
     protected WebElement clickSavechanges;
 
     private By platformType;
-    private By site
+    private By site;
 
     public ApplicationCreatePage (WebDriver driver){
         super(driver);
@@ -41,11 +41,16 @@ public class ApplicationCreatePage extends BaseAdminPage {
         Select dropdownPlatformType = new Select(driver.findElement((By) platformType));
         dropdownPlatformType.selectByValue(option);
     }
-
-    public void selectSite(String option){
+/*
+public void selectSite(String option){
         Select dropdownSite = new Select(driver.findElement((By) siteDropdown));
         dropdownSite.deselectByVisibleText(option);
     }
+    public Select findDropdownSites(){
+        return new Select(driver.findElement((By) siteDropdown));
+    }
+
+ */
 
 
         /*
@@ -56,9 +61,6 @@ public class ApplicationCreatePage extends BaseAdminPage {
   */
 
 
-    public Select findDropdownSites(){
-        return new Select(driver.findElement((By) siteDropdown));
-    }
 
     public Select findDropdownPlatforn(){
         return new Select(driver.findElement((By) platformType));

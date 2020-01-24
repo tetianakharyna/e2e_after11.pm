@@ -1,7 +1,7 @@
 package base;
 
-import admin.LoginIndexPage;
-import admin.application.AdminAreaPage;
+import login.AdminAreaPage;
+import login.LoginIndexPage;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterClass;
