@@ -26,7 +26,7 @@ public class NavigationUtil {
         this.driver = driver;
         this.applicationItemFromBurger = new MainMenuItem(driver, "//ul [@class =\"sidebar-menu tree\"]/li[1]/a");
         this.appSubItemFromBurger = new SubMenuItem(driver, "/html/body/div/aside/section/ul/li[1]/ul/li[1]/a");
-       // this.siteSubItemFromBurger = new SubMenuItem(driver, "//*[@id=\"easyadmin-list-App\"]/div/aside/section/ul/li[1]/ul/li[2]/a");
+        this.siteSubItemFromBurger = new SubMenuItem(driver, "/html/body/div/aside/section/ul/li[1]/ul/li[2]/a");
        // this.feedbackSubItemFromBurger = new SubMenuItem(driver, "//*[@id=\"easyadmin-list-App\"]/div/aside/section/ul/li[1]/ul/li[3]/a");
         this.menuItemFromBurger = new MainMenuItem(driver, "//ul [@class =\"sidebar-menu tree\"]/li[2]/a");
         this.menuSubItemFromBurger = new SubMenuItem(driver, "//ul [@class =\"sidebar-menu tree\"]/li[2]/a");

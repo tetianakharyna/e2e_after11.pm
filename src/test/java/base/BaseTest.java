@@ -32,7 +32,7 @@ public class BaseTest {
 
     @BeforeMethod
     protected void goAdminMethod() {
-        driver.get("https://admin-stage.after11pm.app/sf/admin/?action=list&entity=Network");
+        driver.get("https://admin.after11pm.loc/sf/admin/?action=list&entity=Network");
         this.loginIndexPage = new LoginIndexPage(driver);
         loginIndexPage.setUserremail("admin11pm");
         loginIndexPage.setPassword("gjckt11dtxthf");

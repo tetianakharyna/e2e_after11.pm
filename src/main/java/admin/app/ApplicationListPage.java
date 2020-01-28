@@ -23,6 +23,7 @@ public class ApplicationListPage extends BaseAdminPage {
     }
 
     public void getPageTitle (String text){
+        //Assert.assertEquals(this.pageHeader.getText().equals(text), "Actual: page title is : " + this.pageHeader.getText());
         Assert.assertEquals(this.pageHeader.getText().equals(text), "Actual: page title is : " + this.pageHeader.getText());
         //this.pageHeader.getText().equals(text);
         //this.pageHeader.getText().contains(text);

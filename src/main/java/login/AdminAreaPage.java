@@ -8,7 +8,7 @@ public class AdminAreaPage {
     private WebDriver driver;
     private By whoIsLogined = By.className("user-name");
     private By appBurgerMenu = By.xpath("//ul[@class = \"treeview-menu\"]//span[contains (., \"App\")]");
-    private By siteBurgerMenu = By.xpath("//ul[@class = \"treeview-menu\"]//span[contains (., \"Site\")]");
+    private By siteBurgerMenu = By.xpath("//ul[@class = \"treeview-menu\"]//span[contains (., \"SiteCreatePage\")]");
     private By feedbackBurgerMenu = By.xpath("//ul[@class = \"treeview-menu\"]//span[contains (., \"App\")]");
     public AdminAreaPage(WebDriver driver){
         this.driver = driver;
